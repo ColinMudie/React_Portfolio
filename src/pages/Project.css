@@ -1,0 +1,38 @@
+.project-image {
+    border-radius: 8px;
+    border: 1px solid #ddd;
+    padding: 5px;
+    width: 250px;
+    height: 200px;
+}
+.project-ul {
+    width: 50%;
+    margin: auto;
+}
+
+.project-li {
+    display: inline;
+    width: 50%;
+}
+
+.project-image:hover {
+    cursor: pointer;
+}
+
+.project-title:hover {
+    cursor: pointer;
+}
+
+@media only screen and (max-width: 768px) {
+    .project-image {
+        text-align: center;
+        display:block;
+        margin:0 auto;
+        width: 200px;
+        height: 150px;
+    }
+    .project-ul {
+        width: 80%;
+        margin: 0 auto;
+    }
+}

@@ -2,9 +2,9 @@ import { useForm } from 'react-hook-form';
 import emailjs from 'emailjs-com';
 import { ToastContainer, toast } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.min.css';
+import { motion } from "framer-motion";
 
 const Contact = () => {
-    console.log(process.env);
     const { register, setError, handleSubmit, reset } = useForm();
     emailjs.init(process.env.REACT_APP_USER_ID);
     
@@ -117,9 +117,14 @@ const Contact = () => {
                                         {setError.message && <span className='errorMessage'>Please enter a message</span>}
                                     </div>
                                 </div>
-                                <button className='submit-btn' type='submit'>
+                                <motion.button 
+                                className='submit-btn' 
+                                type='submit'
+                                whileHover={{ scale: 1.1 }}
+                                whileTap={{ scale: 0.9 }}                                
+                                >
                                     Submit
-                                    </button>
+                                    </motion.button>
                             </form>
                         </div>
                         <ToastContainer />

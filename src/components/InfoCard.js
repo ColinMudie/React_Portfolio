@@ -1,5 +1,4 @@
 import Card from "react-bootstrap/Card";
-import SocialMediaLinks from "./SocialMedia"
 
 function InfoCard() {
     return (
@@ -19,7 +18,6 @@ function InfoCard() {
                 <Card.Text>
                     Phone: <Card.Link href="mailto:csmudie1@gmail.com">csmudie1@gmail.com</Card.Link>
                 </Card.Text>
-                <SocialMediaLinks/>
             </Card.Body>
         </Card>
     )
