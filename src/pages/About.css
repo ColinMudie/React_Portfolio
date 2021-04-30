@@ -1,0 +1,52 @@
+.background {
+    position: fixed;
+    left: 0;
+    right: 0;
+    z-index: 0;
+    display: block;
+    background-image: url("/src/background-images/about_background.jpg");
+    background-color: #cccccc;
+    width: 1200px;
+    height: 100%;
+    -webkit-filter: blur(5px);
+    -moz-filter: blur(5px);
+    -o-filter: blur(5px);
+    -ms-filter: blur(5px);
+    filter: blur(5px);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.headshot-1 {
+    margin: 5px;
+    height: auto;
+    width: 80%;
+    border: 5px solid #ffffff;
+    z-index: 9999;
+}
+
+.headshot-2 {
+    margin: 5px;
+    height: auto;
+    width: 100%;
+    border: 5px solid #ffffff;
+}
+
+.about-me {
+    position: relative;
+    padding: 1%;
+    background-color: #ffffff;
+}
+
+.about-me-title {
+    font-size: 320%;
+}
+
+.cat-card {
+    position: relative;
+}
+
+.modular-card {
+    position: relative;
+}

@@ -1,8 +1,8 @@
 function AboutMe () {
     return (
         <div className="about-me">
-            <h3>Who am I?</h3>
-            <p>My name is Colin Mudie and I recieved my undergraduate degree from Central Michigan University in
+            <h3 className="about-me-title">Who am I?</h3>
+            <p className="about-me-text">My name is Colin Mudie and I recieved my undergraduate degree from Central Michigan University in
             Music Performance. While music is still such a large portion of my life I have decided to look
             towards my other passion to create a career in.
             I started a coding bootcamp through MSU in Nov, 2020 and have found new realizations. My original
