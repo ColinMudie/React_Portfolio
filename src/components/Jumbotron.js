@@ -2,8 +2,8 @@ import Jumbotron from "react-bootstrap/Jumbotron";
 
 function JumbotronName () {
     return (
-    <Jumbotron>
-        <h1>Colin Mudie</h1>
+    <Jumbotron className="jumbotron-custom">
+        <h1 className="jumbotron-text">Colin Mudie</h1>
     </Jumbotron>
     )
 }

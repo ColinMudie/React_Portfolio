@@ -7,8 +7,9 @@ function ProjectItem (props) {
     const [isOpen, setIsOpen] = useState(false);
     const toggleOpen = () => setIsOpen(!isOpen);
     return (
+        <div className="project-div">
         <motion.li className='project-li' layout onClick={toggleOpen} initial={{ borderRadius: 10}} >
-            <motion.div whileHover={{ scale: 1.01 }}
+            <motion.div className='project-card' whileHover={{ scale: 1.01 }}
                 whileTap={{ scale: 0.95 }}>
             <h1>{props.title}</h1>
             <img className='project-image' src={props.image} alt={props.title}/>
@@ -18,6 +19,7 @@ function ProjectItem (props) {
                 {isOpen && <ProjectContent content={props.content} url={props.url} github={props.github}/>}
                 </AnimatePresence>
         </motion.li>
+        </div>
     );
 }
 export default ProjectItem;

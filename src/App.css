@@ -1,3 +1,5 @@
+@import "bootstrap/dist/css/bootstrap.css";
+
 * {
   font-family: 'Noto Sans JP', sans-serif;
 }
@@ -42,6 +44,44 @@
   }
 }
 
-.navbar-custom {
-  position: fixed;
+.jumbotron-custom {
+  position: -webkit-sticky; /* Safari */
+  position: sticky;
+  top: 0;
+  width: 100%;
+  z-index: 1;
+  background-color: #bac8c3;
+  border: 5px solid #dce9e4;
+}
+
+.jumbotron-text {
+  color: #235543
+}
+
+.social {
+  left: 45%;
+  justify-content: center;
+  position: relative;
+  display: inline-block;
+  text-align: center;
+  align-items: center;
+}
+
+.social-link {
+  color: #bac8c3;
+  margin: 3px;
+  font-size: 110%;
+  text-align: center;
+  display: inline-block;
+  vertical-align:middle;
+}
+
+.social-link:hover {
+  color: #8fa99f;
+}
+
+@media only screen and (max-width: 768px) {
+  .social {
+    left: 32%;
+  }
 }

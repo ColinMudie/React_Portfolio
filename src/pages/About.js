@@ -6,7 +6,7 @@ import './About.css';
 function About() {
     return (
         <div className="App">
-            <div className="background"></div>
+            <div id="about-background"></div>
             <div className="row">
                 <div className="col-md-8">
                     <Headshot title='headshot-1' image='/assets/images/headshot_1.jpg' />
@@ -17,20 +17,30 @@ function About() {
                 </div>
                 <div className="col-md-1"></div>
             </div>
-            <SimpleCard
-                src='/assets/images/tchalla.png'
-                title="T'challa"
-                text="Here's my cat T'challa, he helps me code by either sleeping on my lap or by attempting to knock over any
+            <div className="row">
+                <div className="col-md-2"></div>
+                <div className="col-md-4 custom-row">
+                    <SimpleCard
+                        src='/assets/images/tchalla.png'
+                        title="T'challa"
+                        text="Here's my cat T'challa, he helps me code by either sleeping on my lap or by attempting to knock over any
                     glass on my desk."
-                class='cat-card'
-            />
-            <SimpleCard
-                src='/assets/images/Modular_rig.jpg'
-                title='Modular Synthesizer'
-                text='This is my modular synthesizer, The mess of wires changes from week to week, to create fun
+                        mainClass='cat-card'
+                        imgClass='cat-img'
+                    />
+                </div>
+                <div className="col-md-4 custom-row">
+                    <SimpleCard
+                        src='/assets/images/headshot_3.jpg'
+                        title='Modular Synthesizer'
+                        text='This is my modular synthesizer, The mess of wires changes from week to week, to create fun
                         new sounds.'
-                class='modular-card'
-            />
+                        mainClass='modular-card'
+                        imgClass='modular-img'
+                    />
+                </div>
+                <div className="col-md-2"></div>
+            </div>
         </div>
     )
 }
