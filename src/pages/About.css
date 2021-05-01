@@ -81,3 +81,22 @@
     display: flex;
     justify-content: center;
 }
+
+.resume {
+    position: relative;
+    background-color: #bac8c3;
+    border: 5px solid #dce9e4;
+    border-radius: 8px;
+    width: 40%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10px;
+}
+
+.resume-link {
+    color:#1c443d;
+}
+
+.resume-link:hover {
+    color:#0c241f;
+}

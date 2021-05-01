@@ -1,11 +1,9 @@
 # React_Portfolio
 
-
-
 ![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)
 
 ## Description
-This app tracks burgers you want to eat and burgers you've devoured! The goal with this app was to combine a MySQL database with Express, Express-handlebars, and some ORM to Create, Read, Update, and Delete data from the MySQL db. The burger app follows the MVC design pattern.  
+This is the personal portfolio for Colin Mudie. It was made using React in order to grow their understanding of the JavaScript Library. 
 -  [Live Link](https://colinmudie.github.io/React_Portfolio/)
 
 -  [Github Link](https://github.com/ColinMudie/React_Portfolio)

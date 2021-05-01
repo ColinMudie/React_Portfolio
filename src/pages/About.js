@@ -1,6 +1,7 @@
 import AboutMe from '../components/AboutMe';
 import SimpleCard from '../components/SimpleCard';
 import Headshot from '../components/Headshot';
+import Resume from '../components/Resume';
 import './About.css';
 import headshot1 from '../assets/images/headshot_1.jpg';
 import headshot2 from '../assets/images/headshot_2.jpg';
@@ -14,6 +15,7 @@ function About() {
             <div className="row">
                 <div className="col-md-8">
                     <Headshot title='headshot-1' image={headshot1} />
+                    <Resume/>
                 </div>
                 <div className="col-md-3">
                     <AboutMe />
