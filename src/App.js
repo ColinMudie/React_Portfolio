@@ -15,8 +15,7 @@ import './App.css';
 
 function App() {
   return (
-    <HashRouter basename="https://colinmudie.github.io/React_Portfolio/">
-    <Router>
+    <Router basename={process.env.PUBLIC_URL}>
       <div>
       <Jumbotron />
       <Navbar />
@@ -29,7 +28,6 @@ function App() {
         <BottomNav/>
       </div>
     </Router>
-    </HashRouter>
   );
 }
 
