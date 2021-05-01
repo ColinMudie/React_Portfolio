@@ -85,6 +85,7 @@
 
 .nav-link-custom {
   color: #24524a !important;
+  margin: 10px;
 }
 
 .nav-link-custom:hover {

@@ -14,7 +14,7 @@ function ProjectContainer () {
                             from the MySQL db. The burger app follows the MVC design pattern."
                     url='https://eat-da-cheese-curd-burger.herokuapp.com/'
                     github='https://github.com/ColinMudie/BurgerEater'
-                    image='/assets/images/eat_da_burger.png'
+                    image='%PUBLIC_URL%/assets/images/eat_da_burger.png'
                     />
                 <ProjectItem key='2' 
                     title='Planet Fitness Quiz' 
@@ -24,7 +24,7 @@ function ProjectContainer () {
                             to be viewed later on the scoredboard. The scoreboard will sort the highest score to the top.'
                     url='https://colinmudie.github.io/Planet_Fitness_Quiz/'
                     github='https://github.com/ColinMudie/Planet_Fitness_Quiz'
-                    image='/assets/images/planet_fitness_quiz.png'
+                    image='%PUBLIC_URL%/assets/images/planet_fitness_quiz.png'
                     />
                 <ProjectItem key='3'
                     title='MAJC'
@@ -34,7 +34,7 @@ function ProjectContainer () {
                             Node.js. Made with the help of Mariah Truttling, Andrew Chappell, and Joshua Korf."
                     url='https://who-knows10120.herokuapp.com/'
                     github='https://github.com/ColinMudie/MAJC'
-                    image='/assets/images/majc.png'
+                    image='%PUBLIC_URL%/assets/images/majc.png'
                 />
                 <ProjectItem key='4'
                     title='Note Taker'
@@ -42,7 +42,7 @@ function ProjectContainer () {
                             The purpose of the app was to utilize express.js and Heroku to operate the app"
                     url='https://damp-ridge-49255.herokuapp.com/'
                     github='https://github.com/ColinMudie/Note_Taker'
-                    image='/assets/images/note_taker.png'
+                    image='%PUBLIC_URL%/assets/images/note_taker.png'
                 />
             </motion.ul>
         </AnimateSharedLayout>

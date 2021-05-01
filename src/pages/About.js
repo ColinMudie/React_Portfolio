@@ -9,11 +9,11 @@ function About() {
             <div id="about-background"></div>
             <div className="row">
                 <div className="col-md-8">
-                    <Headshot title='headshot-1' image='/assets/images/headshot_1.jpg' />
+                    <Headshot title='headshot-1' image='%PUBLIC_URL%/assets/images/headshot_1.jpg' />
                 </div>
                 <div className="col-md-3">
                     <AboutMe />
-                    <Headshot title='headshot-2' image='/assets/images/headshot_2.jpg' />
+                    <Headshot title='headshot-2' image='%PUBLIC_URL%/assets/images/headshot_2.jpg' />
                 </div>
                 <div className="col-md-1"></div>
             </div>
@@ -21,7 +21,7 @@ function About() {
                 <div className="col-md-2"></div>
                 <div className="col-md-4 custom-row">
                     <SimpleCard
-                        src='/assets/images/tchalla.png'
+                        src='%PUBLIC_URL%/assets/images/tchalla.png'
                         title="T'challa"
                         text="Here's my cat T'challa, he helps me code by either sleeping on my lap or by attempting to knock over any
                     glass on my desk."
@@ -31,7 +31,7 @@ function About() {
                 </div>
                 <div className="col-md-4 custom-row">
                     <SimpleCard
-                        src='/assets/images/headshot_3.jpg'
+                        src='%PUBLIC_URL%/assets/images/headshot_3.jpg'
                         title='Modular Synthesizer'
                         text='This is my modular synthesizer, The mess of wires changes from week to week, to create fun
                         new sounds.'
