@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/React_Portfolio/static/css/main.a9d3bd8c.chunk.css",
-    "main.js": "/React_Portfolio/static/js/main.b8cb28c3.chunk.js",
-    "main.js.map": "/React_Portfolio/static/js/main.b8cb28c3.chunk.js.map",
+    "main.js": "/React_Portfolio/static/js/main.0b95f5c7.chunk.js",
+    "main.js.map": "/React_Portfolio/static/js/main.0b95f5c7.chunk.js.map",
     "runtime-main.js": "/React_Portfolio/static/js/runtime-main.fbe5393a.js",
     "runtime-main.js.map": "/React_Portfolio/static/js/runtime-main.fbe5393a.js.map",
     "static/css/2.0d6c7311.chunk.css": "/React_Portfolio/static/css/2.0d6c7311.chunk.css",
@@ -16,14 +16,22 @@
     "static/js/2.08008c8e.chunk.js.LICENSE.txt": "/React_Portfolio/static/js/2.08008c8e.chunk.js.LICENSE.txt",
     "static/media/About.css": "/React_Portfolio/static/media/about_background.830b8052.jpg",
     "static/media/Contact.css": "/React_Portfolio/static/media/contact_background.c3c82661.jpg",
+    "static/media/eat_da_burger.7659ec4a.png": "/React_Portfolio/static/media/eat_da_burger.7659ec4a.png",
+    "static/media/headshot_1.4be8f394.jpg": "/React_Portfolio/static/media/headshot_1.4be8f394.jpg",
+    "static/media/headshot_2.6a1fc26d.jpg": "/React_Portfolio/static/media/headshot_2.6a1fc26d.jpg",
+    "static/media/headshot_3.661e392a.jpg": "/React_Portfolio/static/media/headshot_3.661e392a.jpg",
     "static/media/Home.css": "/React_Portfolio/static/media/home_background.ccf99c05.jpg",
-    "static/media/Project.css": "/React_Portfolio/static/media/projects_background.cdeb6a89.jpg"
+    "static/media/majc.4cacf1f7.png": "/React_Portfolio/static/media/majc.4cacf1f7.png",
+    "static/media/note_taker.804158a1.png": "/React_Portfolio/static/media/note_taker.804158a1.png",
+    "static/media/planet_fitness_quiz.c6df5624.png": "/React_Portfolio/static/media/planet_fitness_quiz.c6df5624.png",
+    "static/media/Project.css": "/React_Portfolio/static/media/projects_background.cdeb6a89.jpg",
+    "static/media/tchalla.55a86a6d.png": "/React_Portfolio/static/media/tchalla.55a86a6d.png"
   },
   "entrypoints": [
     "static/js/runtime-main.fbe5393a.js",
     "static/css/2.0d6c7311.chunk.css",
     "static/js/2.08008c8e.chunk.js",
     "static/css/main.a9d3bd8c.chunk.css",
-    "static/js/main.b8cb28c3.chunk.js"
+    "static/js/main.0b95f5c7.chunk.js"
   ]
 }
