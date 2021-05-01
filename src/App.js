@@ -1,5 +1,6 @@
 import {
   BrowserRouter as Router,
+  HashRouter,
   Switch,
   Route
 } from "react-router-dom";
@@ -14,11 +15,11 @@ import './App.css';
 
 function App() {
   return (
+    <HashRouter basename="https://colinmudie.github.io/React_Portfolio/">
     <Router>
       <div>
       <Jumbotron />
       <Navbar />
-      
       <Switch>
         <Route exact path="/" component={Home}/>
         <Route exact path="/about" component={About}/>
@@ -28,6 +29,7 @@ function App() {
         <BottomNav/>
       </div>
     </Router>
+    </HashRouter>
   );
 }
 
