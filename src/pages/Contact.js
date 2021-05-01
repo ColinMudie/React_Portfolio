@@ -3,6 +3,7 @@ import emailjs from 'emailjs-com';
 import { ToastContainer, toast } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.min.css';
 import { motion } from "framer-motion";
+import './Contact.css';
 
 const Contact = () => {
     const { register, setError, handleSubmit, reset } = useForm();
@@ -42,6 +43,7 @@ const Contact = () => {
 
     return (
         <div className='ContactForm'>
+            <div id="contact-background"></div>
             <div className='container'>
                 <div className='row'>
                     <div className='col-12 text-center'>
@@ -60,7 +62,7 @@ const Contact = () => {
                                                     message: 'Please use 30 characters or less'
                                                 }
                                             })}
-                                            className='form-control formInput'
+                                            className='form-control formInput custom-input'
                                             placeholder='Name'
                                         ></input>
                                         {/* {errors.name && <span className='errorMessage'>{errors.name.message}</span>} */}
@@ -73,7 +75,7 @@ const Contact = () => {
                                                 required: true,
                                                 pattern: /^[a-zA-Z0-9.!#$%&’*+/=?^_`{|}~-]+@[a-zA-Z0-9-]+(?:\.[a-zA-Z0-9-]+)*$/
                                             })}
-                                            className='form-control formInput'
+                                            className='form-control formInput custom-input'
                                             placeholder='Email address'
                                         ></input>
                                         {setError.email && (
@@ -94,7 +96,7 @@ const Contact = () => {
                                                     message: 'Subject cannot exceed 75 characters'
                                                 }
                                             })}
-                                            className='form-control formInput'
+                                            className='form-control formInput custom-input'
                                             placeholder='Subject'
                                         ></input>
                                         {setError.subject && (
@@ -111,14 +113,14 @@ const Contact = () => {
                                             {...register('message', {
                                                 required: true
                                             })}
-                                            className='form-control formInput'
+                                            className='form-control formInput custom-input'
                                             placeholder='Message'
                                         ></textarea>
                                         {setError.message && <span className='errorMessage'>Please enter a message</span>}
                                     </div>
                                 </div>
                                 <motion.button 
-                                className='submit-btn' 
+                                className='submit-btn custom-btn' 
                                 type='submit'
                                 whileHover={{ scale: 1.1 }}
                                 whileTap={{ scale: 0.9 }}                                

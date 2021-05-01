@@ -26,3 +26,11 @@
     margin-left: auto;
     margin-right: auto;
 }
+
+.card-link {
+    color:#3a6f5d;
+}
+
+.card-link:hover {
+    color:#0c241c;
+}

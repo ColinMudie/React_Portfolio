@@ -1,0 +1,40 @@
+#contact-background {
+    position: fixed;
+    left: 0;
+    right: 0;
+    top: 175px;
+    z-index: -1;
+    display: block;
+    background-image: url("/src/background-images/contact_background.jpg");
+    background-color: #cccccc;
+    height: 100%;
+    -webkit-filter: blur(5px);
+    -moz-filter: blur(5px);
+    -o-filter: blur(5px);
+    -ms-filter: blur(5px);
+    filter: blur(5px);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.custom-input {
+    background-color: #dce9e4;
+    border: 5px solid #bac8c3; 
+    margin: 5px;  
+}
+
+.custom-input:focus {
+    background-color: #dce9e4;
+    border: 5px solid #bac8c3; 
+    margin: 5px;  
+}
+
+.custom-btn {
+    font-weight: 700;
+    color: #235543;
+    background-color: #99aea7;
+    border: 1px solid #8a9f98; 
+    margin: 5px; 
+    border-radius: 8px;
+}

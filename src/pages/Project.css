@@ -73,11 +73,11 @@ h1 {
     position: relative;
     left: 10px;
     bottom: 40px;
-    color:#1c443d;
+    color:#3a6f5d;
 }
 
 .project-link:hover {
-    color:#0c241f;
+    color:#0c241c;
 }
 
 .bottom-space {
@@ -86,7 +86,7 @@ h1 {
 
 .project-page-title {
     font-size: 500%;
-    color:#5cab8e;
+    color:#418066;
 }
 
 @media only screen and (max-width: 768px) {

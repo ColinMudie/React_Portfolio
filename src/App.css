@@ -51,11 +51,12 @@
   width: 100%;
   z-index: 1;
   background-color: #bac8c3;
-  border: 5px solid #dce9e4;
+  background-image: url("https://www.transparenttextures.com/patterns/crossword.png");
+  /* border: 5px solid #dce9e4; */
 }
 
 .jumbotron-text {
-  color: #235543
+  color: #235543;
 }
 
 .social {
@@ -80,4 +81,12 @@
 .bottom-nav-custom {
   margin-left: auto;
   margin-right: auto;
+}
+
+.nav-link-custom {
+  color: #24524a !important;
+}
+
+.nav-link-custom:hover {
+  color:#0c241f !important;
 }

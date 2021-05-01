@@ -4,7 +4,7 @@ function InfoCard() {
     return (
         <Card className="card-custom" style={{ width: '18rem' }}>
             <Card.Body>
-                <Card.Title>Hello</Card.Title>
+                <Card.Title>Hello!</Card.Title>
                 <Card.Text>
                     I am a fullstack web developer who currently lives in Mt. Pleasant, MI.
                     Feel free to look at some of my projects.
