@@ -1,6 +1,11 @@
 import React from 'react';
 import { AnimateSharedLayout, motion } from "framer-motion";
 import ProjectItem from "./ProjectItem";
+import eatDaBurger from '../assets/images/eat_da_burger.png';
+import pfQuiz from '../assets/images/planet_fitness_quiz.png';
+import majc from '../assets/images/majc.png';
+import noteTaker from '../assets/images/note_taker.png';
+
 
 function ProjectContainer () {
     return (
@@ -14,7 +19,7 @@ function ProjectContainer () {
                             from the MySQL db. The burger app follows the MVC design pattern."
                     url='https://eat-da-cheese-curd-burger.herokuapp.com/'
                     github='https://github.com/ColinMudie/BurgerEater'
-                    image='/src/assets/images/eat_da_burger.png'
+                image={eatDaBurger}
                     />
                 <ProjectItem key='2' 
                     title='Planet Fitness Quiz' 
@@ -24,7 +29,7 @@ function ProjectContainer () {
                             to be viewed later on the scoredboard. The scoreboard will sort the highest score to the top.'
                     url='https://colinmudie.github.io/Planet_Fitness_Quiz/'
                     github='https://github.com/ColinMudie/Planet_Fitness_Quiz'
-                    image='/src/assets/images/planet_fitness_quiz.png'
+                    image={pfQuiz}
                     />
                 <ProjectItem key='3'
                     title='MAJC'
@@ -34,7 +39,7 @@ function ProjectContainer () {
                             Node.js. Made with the help of Mariah Truttling, Andrew Chappell, and Joshua Korf."
                     url='https://who-knows10120.herokuapp.com/'
                     github='https://github.com/ColinMudie/MAJC'
-                    image='/src/assets/images/majc.png'
+                    image={majc}
                 />
                 <ProjectItem key='4'
                     title='Note Taker'
@@ -42,7 +47,7 @@ function ProjectContainer () {
                             The purpose of the app was to utilize express.js and Heroku to operate the app"
                     url='https://damp-ridge-49255.herokuapp.com/'
                     github='https://github.com/ColinMudie/Note_Taker'
-                    image='/src/assets/images/note_taker.png'
+                    image={noteTaker}
                 />
             </motion.ul>
         </AnimateSharedLayout>
