@@ -59,29 +59,25 @@
 }
 
 .social {
-  left: 45%;
-  justify-content: center;
-  position: relative;
-  display: inline-block;
-  text-align: center;
-  align-items: center;
+  margin-left: auto;
+  margin-right: auto;
+  position: absolute;
+  left: 50%;
+  margin-right: -50%;
+  transform: translate(-50%, -50%)
 }
 
 .social-link {
   color: #bac8c3;
   margin: 3px;
   font-size: 110%;
-  text-align: center;
-  display: inline-block;
-  vertical-align:middle;
 }
 
 .social-link:hover {
   color: #8fa99f;
 }
 
-@media only screen and (max-width: 768px) {
-  .social {
-    left: 32%;
-  }
+.bottom-nav-custom {
+  margin-left: auto;
+  margin-right: auto;
 }

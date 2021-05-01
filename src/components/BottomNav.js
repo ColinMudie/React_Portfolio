@@ -2,7 +2,7 @@ import Navbar from 'react-bootstrap/Navbar'
 import SocialMediaLinks from './SocialMedia'
 function BottomNav () {
     return (
-        <Navbar fixed="bottom">
+        <Navbar className='bottom-nav-custom' fixed="bottom">
             <SocialMediaLinks/>
         </Navbar>
     )

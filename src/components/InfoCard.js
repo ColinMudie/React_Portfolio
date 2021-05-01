@@ -2,7 +2,7 @@ import Card from "react-bootstrap/Card";
 
 function InfoCard() {
     return (
-        <Card style={{ width: '18rem' }}>
+        <Card className="card-custom" style={{ width: '18rem' }}>
             <Card.Body>
                 <Card.Title>Hello</Card.Title>
                 <Card.Text>
