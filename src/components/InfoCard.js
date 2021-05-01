@@ -16,7 +16,7 @@ function InfoCard() {
                     Phone: (248)-924-7877
                 </Card.Text>
                 <Card.Text>
-                    Phone: <Card.Link href="mailto:csmudie1@gmail.com">csmudie1@gmail.com</Card.Link>
+                    Email: <Card.Link href="mailto:csmudie1@gmail.com">csmudie1@gmail.com</Card.Link>
                 </Card.Text>
             </Card.Body>
         </Card>
