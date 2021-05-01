@@ -1,6 +1,6 @@
 {
-  "homepage": "https://colinmudie.github.io/React_Portfolio/",
   "name": "portfolio",
+  "homepage": "https://colinmudie.github.io/React_Portfolio/",
   "version": "0.1.0",
   "private": true,
   "dependencies": {

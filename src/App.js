@@ -1,5 +1,6 @@
 import {
   BrowserRouter as Router,
+  HashRouter,
   Switch,
   Route
 } from "react-router-dom";
@@ -14,7 +15,7 @@ import './App.css';
 
 function App() {
   return (
-    <Router >
+    <HashRouter basename={process.env.PUBLIC_URL}>
       <div>
       <Jumbotron />
       <Navbar />
@@ -34,7 +35,7 @@ function App() {
       </Switch>
         <BottomNav/>
       </div>
-    </Router>
+    </HashRouter>
   );
 }
 
