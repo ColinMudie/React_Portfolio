@@ -1,7 +1,7 @@
 import React from 'react';
 import { AnimateSharedLayout, motion } from "framer-motion";
 import ProjectItem from "./ProjectItem";
-import eatDaBurger from '../assets/images/eat_da_burger.png';
+import dt01 from '../assets/images/dt-01.png';
 import pfQuiz from '../assets/images/planet_fitness_quiz.png';
 import majc from '../assets/images/majc.png';
 import noteTaker from '../assets/images/note_taker.png';
@@ -12,14 +12,15 @@ function ProjectContainer () {
         <AnimateSharedLayout>
             <motion.ul className='project-ul' layout initial={{ borderRadius: 25 }}>
                 <ProjectItem key='1' 
-                    title='Eat Da Burger' 
-                    content="This app tracks burgers you want to eat and burgers you've devoured! 
-                            The goal with this app was to combine a MySQL database with Express, 
-                            Express-handlebars, and some ORM to Create, Read, Update, and Delete data 
-                            from the MySQL db. The burger app follows the MVC design pattern."
-                    url='https://eat-da-cheese-curd-burger.herokuapp.com/'
-                    github='https://github.com/ColinMudie/BurgerEater'
-                image={eatDaBurger}
+                    title='DT-01' 
+                    content="The dt-1 is a simple yet effective, portable synthesizer. 
+                            It features 4 pitch settings and 4 different waves, 
+                            giving the user the experience of a synthesizer 
+                            without all the wires and configuration. The dt-1 allows the user to 
+                            save up to 3 presets which are then editable."
+                    url='https://dt-01.herokuapp.com/'
+                    github='https://github.com/ColinMudie/Dream-Team'
+                image={dt01}
                     />
                 <ProjectItem key='2' 
                     title='Planet Fitness Quiz' 

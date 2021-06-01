@@ -16,7 +16,7 @@ import './App.css';
 function App() {
   return (
     <HashRouter basename={process.env.PUBLIC_URL}>
-      <div>
+      <>
       <Jumbotron />
       <Navbar />
       <Switch>
@@ -34,7 +34,7 @@ function App() {
           </Route>
       </Switch>
         <BottomNav/>
-      </div>
+      </>
     </HashRouter>
   );
 }
