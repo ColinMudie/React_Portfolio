@@ -1,22 +1,22 @@
 {
   "files": {
-    "main.css": "/React_Portfolio/static/css/main.09129b6a.chunk.css",
-    "main.js": "/React_Portfolio/static/js/main.838a1bdc.chunk.js",
-    "main.js.map": "/React_Portfolio/static/js/main.838a1bdc.chunk.js.map",
+    "main.css": "/React_Portfolio/static/css/main.fabab8d4.chunk.css",
+    "main.js": "/React_Portfolio/static/js/main.ee8ac789.chunk.js",
+    "main.js.map": "/React_Portfolio/static/js/main.ee8ac789.chunk.js.map",
     "runtime-main.js": "/React_Portfolio/static/js/runtime-main.fbe5393a.js",
     "runtime-main.js.map": "/React_Portfolio/static/js/runtime-main.fbe5393a.js.map",
     "static/css/2.0d6c7311.chunk.css": "/React_Portfolio/static/css/2.0d6c7311.chunk.css",
-    "static/js/2.08008c8e.chunk.js": "/React_Portfolio/static/js/2.08008c8e.chunk.js",
-    "static/js/2.08008c8e.chunk.js.map": "/React_Portfolio/static/js/2.08008c8e.chunk.js.map",
+    "static/js/2.5025f19d.chunk.js": "/React_Portfolio/static/js/2.5025f19d.chunk.js",
+    "static/js/2.5025f19d.chunk.js.map": "/React_Portfolio/static/js/2.5025f19d.chunk.js.map",
     "static/js/3.432ad268.chunk.js": "/React_Portfolio/static/js/3.432ad268.chunk.js",
     "static/js/3.432ad268.chunk.js.map": "/React_Portfolio/static/js/3.432ad268.chunk.js.map",
     "index.html": "/React_Portfolio/index.html",
     "static/css/2.0d6c7311.chunk.css.map": "/React_Portfolio/static/css/2.0d6c7311.chunk.css.map",
-    "static/css/main.09129b6a.chunk.css.map": "/React_Portfolio/static/css/main.09129b6a.chunk.css.map",
-    "static/js/2.08008c8e.chunk.js.LICENSE.txt": "/React_Portfolio/static/js/2.08008c8e.chunk.js.LICENSE.txt",
+    "static/css/main.fabab8d4.chunk.css.map": "/React_Portfolio/static/css/main.fabab8d4.chunk.css.map",
+    "static/js/2.5025f19d.chunk.js.LICENSE.txt": "/React_Portfolio/static/js/2.5025f19d.chunk.js.LICENSE.txt",
     "static/media/About.css": "/React_Portfolio/static/media/about_background.830b8052.jpg",
     "static/media/Contact.css": "/React_Portfolio/static/media/contact_background.c3c82661.jpg",
-    "static/media/eat_da_burger.7659ec4a.png": "/React_Portfolio/static/media/eat_da_burger.7659ec4a.png",
+    "static/media/dt-01.1866e4a3.png": "/React_Portfolio/static/media/dt-01.1866e4a3.png",
     "static/media/headshot_1.4be8f394.jpg": "/React_Portfolio/static/media/headshot_1.4be8f394.jpg",
     "static/media/headshot_2.6a1fc26d.jpg": "/React_Portfolio/static/media/headshot_2.6a1fc26d.jpg",
     "static/media/headshot_3.661e392a.jpg": "/React_Portfolio/static/media/headshot_3.661e392a.jpg",
@@ -30,8 +30,8 @@
   "entrypoints": [
     "static/js/runtime-main.fbe5393a.js",
     "static/css/2.0d6c7311.chunk.css",
-    "static/js/2.08008c8e.chunk.js",
-    "static/css/main.09129b6a.chunk.css",
-    "static/js/main.838a1bdc.chunk.js"
+    "static/js/2.5025f19d.chunk.js",
+    "static/css/main.fabab8d4.chunk.css",
+    "static/js/main.ee8ac789.chunk.js"
   ]
 }
