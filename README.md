@@ -8,6 +8,8 @@ This is the personal portfolio for Colin Mudie. It was made using React in order
 
 -  [Github Link](https://github.com/ColinMudie/React_Portfolio)
 
+- ![Preview-of-Home-Page](assets/images/porfolio_preview.png)
+
 ## Table of Contents
 
 * [Features](#features)
